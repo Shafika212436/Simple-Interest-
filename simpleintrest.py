@@ -7,7 +7,7 @@ def calculate_simple_interest(principal, rate, time):
     """Calculate simple interest given principal, rate, and time."""
     return (principal * rate * time) / 100
 
-if __name__ == "__main__":
+if __name__== "__main__":
     print("=== Simple Interest Calculator ===")
 
     try:
@@ -28,7 +28,7 @@ if __name__ == "__main__":
         print("Time in years:", t)
         # Calculate and display the result
         interest = calculate_simple_interest(p, r, t)
-        print(f"\nThe Simple Interest ={  interest :.2f}")
+        print(f"\nThe Simple Interest = {  interest :.2f}")
 
     except ValueError:
         print("Error: Please enter valid numeric values.")
